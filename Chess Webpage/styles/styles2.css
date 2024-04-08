@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(90deg, rgba(37,37,37,1) 0%, rgba(71,79,89,1) 100%);
+    color: #D3D3D3; 
+    font-family: 'HarryPotter', sans-serif; 
+    margin: 0;
+}
+
+.whole
+{
+    align-items: center;
+    padding-left: 400px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.284) ;
+    padding: 100px;
+    border-radius: 10px;
+    
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Added padding */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px rgb(136, 142, 144); /* Added shadow effect */
+    margin-top: 20px; /* Adjusted spacing */
+    text-align: left; /* Align lyrics on the left */
+    width: 80%; /* Added width to fit the content */
+    max-width: 600px; /* Set maximum width for responsiveness */
+ }
+
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cover img {
+    display:block;
+    float:right;
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+}
+
+.order-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 300px;
+}
+
+.submit-button {
+    background-color: #0E76A8; 
+    color: #D3D3D3; 
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #001C3D; 
+}
+
+.footer {
+    background-color: #1D1D1D; 
+    color: #D3D3D3; 
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fdf0f0; 
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+}
+
+
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar ul{
+    padding-left: 350px;
+}
+
+.navbar li {
+    align-items: center;
+    padding: 10px 20px 10px 100px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 10px ;
+    padding-right: 25px;
+
+}
+
+.navbar li a:hover
+ {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+

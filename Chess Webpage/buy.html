@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/buystyles.css"> <!-- Add a separate CSS file for Harry Potter aesthetics -->
+    <title>Order Form</title>
+</head>
+<body class="body">
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <!-- Moved the social media links inside the navbar -->
+                <li><a href="index.html" target="_blank">Home</a></li>              
+                <li><a href="contact.html" target="_blank">Contact US</a></li>
+                <li><a href="buy.html" target="_blank">Buy Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="whole">
+        <div class="container">
+            <div class="order-container">
+                <form action="#" method="post" class="order-form">
+                    <label for="customerName">Your Name:</label>
+                    <input type="text" id="customerName" name="customerName" required>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="bookQuantity">Quantity:</label>
+                    <input type="number" id="bookQuantity" name="bookQuantity" min="1" required>
+                    <button type="submit" class="submit-button">Submit Order</button>
+                </form>
+            </div>
+        </div>
+        <!-- Placed the cover image within a separate div to align it properly -->
+        <div class="cover">
+            <img src="images/chess-set-sgb-mym-board-ebonized-pieces-view-1500x830__20971_pixian_ai.png" alt="Cover">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Chess Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
